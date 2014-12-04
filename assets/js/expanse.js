@@ -12,7 +12,7 @@ $(document).ready(function(){
 
   // adjust top position of bio hover on homepage
   if(isHome)
-    $hover.css({ top: '-'+parseInt($hover.height()+60)+'px' }); 
+    $hover.css({ top: '-'+parseInt($hover.height()+10)+'px' }); 
   
   // add cover photo after whole page loads
   $(window).load(function(){    
